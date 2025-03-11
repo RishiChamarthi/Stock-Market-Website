@@ -1,0 +1,14 @@
+/* this font is outfit font this is added in the tailwind.config.js (see there in the extend part) */
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+    --font-outfit : Outfit,'ui-sans-serif', 'system-ui';
+}
+
+/* to disable the scrollbar in chrome (use class as no-scrollbar) */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
